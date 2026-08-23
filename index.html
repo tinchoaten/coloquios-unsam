@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Coloquios · MCP UNSAM 2026</title>
+<style>
+:root{
+  --bg:#faf9f7; --surface:#ffffff; --surface-alt:#f4f2ee;
+  --text:#1c1b19; --text-2:#5f5e5a; --text-3:#8a8880;
+  --border:#e3e0d9; --border-strong:#c9c5bb;
+  --accent:#185fa5; --accent-bg:#e6f1fb; --accent-border:#85b7eb;
+  --ok:#0f6e56; --ok-bg:#e1f5ee; --ok-border:#5dcaa5;
+  --pdt:#a32d2d; --pdt-bg:#fcebeb; --pdt-border:#f09595;
+  --warn:#854f0b; --warn-bg:#faeeda;
+  --radius:8px;
+}
+@media (prefers-color-scheme: dark){
+:root{
+  --bg:#191817; --surface:#242322; --surface-alt:#1f1e1d;
+  --text:#eeece7; --text-2:#a8a69f; --text-3:#7a7872;
+  --border:#3a3835; --border-strong:#4d4a46;
+  --accent:#85b7eb; --accent-bg:#0c447c; --accent-border:#378add;
+  --ok:#9fe1cb; --ok-bg:#085041; --ok-border:#1d9e75;
+  --pdt:#f7c1c1; --pdt-bg:#791f1f; --pdt-border:#e24b4a;
+  --warn:#fac775; --warn-bg:#633806;
+}
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;-webkit-font-smoothing:antialiased}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+button{font-family:inherit;cursor:pointer}
+.wrap{max-width:780px;margin:0 auto;padding:0 16px}
+.home{padding:48px 0 64px}
+.home-eyebrow{font-size:11px;color:var(--text-3);text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px}
+.home-h1{font-size:26px;font-weight:500;margin-bottom:6px}
+.home-p{font-size:14px;color:var(--text-2);margin-bottom:28px}
+.slist{display:flex;flex-direction:column;gap:8px}
+.scard{display:block;text-align:left;width:100%;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;transition:border-color .15s,transform .1s}
+.scard:hover{border-color:var(--border-strong)}
+.scard:active{transform:scale(.995)}
+.scard-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:4px}
+.scard-name{font-size:15px;font-weight:500}
+.scard-ttl{font-size:12.5px;color:var(--text-2);line-height:1.45}
+.scard-meta{font-size:11px;color:var(--text-3);margin-top:8px;display:flex;gap:12px;flex-wrap:wrap}
+.pill{font-size:10.5px;font-weight:500;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.pill-none{background:var(--surface-alt);color:var(--text-3)}
+.pill-prog{background:var(--accent-bg);color:var(--accent)}
+.pill-done{background:var(--ok-bg);color:var(--ok)}
+.topbar{position:sticky;top:0;z-index:30;background:var(--surface);border-bottom:1px solid var(--border)}
+.tb-in{max-width:780px;margin:0 auto;padding:10px 16px}
+.tb-row1{display:flex;align-items:flex-start;gap:12px}
+.back{background:none;border:none;color:var(--text-2);font-size:13px;padding:2px 0;flex-shrink:0}
+.back:hover{color:var(--text)}
+.tb-name{font-size:14px;font-weight:500}
+.tb-ttl{font-size:11.5px;color:var(--text-2);line-height:1.4;margin-top:2px}
+.tb-row2{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:9px;padding-top:9px;border-top:1px solid var(--border)}
+.stat{font-size:12px;color:var(--text-2);display:flex;align-items:center;gap:5px}
+.stat b{color:var(--text);font-weight:500}
+.dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.barw{flex:1;min-width:60px;height:3px;background:var(--border);border-radius:999px;overflow:hidden}
+.bar{height:100%;background:var(--accent);border-radius:999px;transition:width .3s;width:0}
+.tbtn{font-size:11.5px;padding:4px 10px;border-radius:999px;border:1px solid var(--border-strong);background:var(--surface);color:var(--text-2)}
+.tbtn:hover{background:var(--surface-alt);color:var(--text)}
+.tabs{display:flex;gap:2px;overflow-x:auto;padding:0 16px;max-width:780px;margin:0 auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabbar{position:sticky;z-index:20;background:var(--surface);border-bottom:1px solid var(--border)}
+.tab{padding:8px 10px;font-size:12.5px;color:var(--text-2);background:none;border:none;border-bottom:2px solid transparent;white-space:nowrap;display:flex;align-items:center;gap:5px}
+.tab:hover{color:var(--text)}
+.tab.on{color:var(--accent);border-bottom-color:var(--accent);font-weight:500}
+.tbadge{font-size:10px;background:var(--surface-alt);color:var(--text-3);border-radius:999px;padding:1px 5px}
+.cdot{width:5px;height:5px;border-radius:50%;background:var(--pdt);flex-shrink:0}
+.main{padding:14px 0 80px}
+.grp{margin-bottom:20px}
+.grp.hide{display:none}
+.grp-h{font-size:10.5px;font-weight:500;color:var(--text-3);text-transform:uppercase;letter-spacing:.09em;margin-bottom:8px}
+.card{background:var(--surface);border:1px solid var(--border);border-left:3px solid transparent;border-radius:var(--radius);padding:11px 12px;margin-bottom:8px}
+.card.crit{border-left-color:#a32d2d}
+.card.sug{border-left-color:#854f0b}
+.card.s-app{background:var(--accent-bg);border-color:var(--accent-border)}
+.card.s-ok{background:var(--ok-bg);border-color:var(--ok-border)}
+.card.s-pdt{background:var(--pdt-bg);border-color:var(--pdt-border)}
+.ctop{display:flex;gap:10px;align-items:flex-start}
+.cbody{flex:1;min-width:0}
+.cacts{display:flex;flex-direction:column;gap:5px;align-items:flex-end;flex-shrink:0}
+.badge{display:inline-block;font-size:10px;font-weight:500;padding:1.5px 6px;border-radius:var(--radius);margin-right:5px;vertical-align:1px}
+.b-c{background:var(--pdt-bg);color:var(--pdt)}
+.b-s{background:var(--warn-bg);color:var(--warn)}
+.ctitle{font-size:13.5px;font-weight:500;margin-bottom:4px;line-height:1.35}
+.csum{font-size:12.5px;color:var(--text-2);line-height:1.5}
+.csug{margin-top:7px;font-size:11.5px;color:var(--ok);background:var(--ok-bg);border:1px solid var(--ok-border);border-radius:var(--radius);padding:6px 9px;line-height:1.45}
+.cq{margin-top:6px;font-size:11.5px;color:var(--accent);background:var(--accent-bg);border:1px solid var(--accent-border);border-radius:var(--radius);padding:6px 9px;line-height:1.45;display:none}
+.csug b,.cq b{font-weight:500}
+.cnote{display:none;width:100%;margin-top:7px;font-family:inherit;font-size:12px;color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:6px 8px;resize:vertical;min-height:34px;line-height:1.45}
+.cnote:focus{outline:none;border-color:var(--accent-border)}
+.abtn{font-size:11.5px;padding:4px 10px;border-radius:999px;border:1px solid var(--border-strong);background:var(--surface);color:var(--text-2);white-space:nowrap}
+.abtn:hover{background:var(--surface-alt);color:var(--text)}
+.abtn.on-app{background:var(--accent);color:#fff;border-color:transparent}
+.abtn.on-ok{background:var(--ok);color:#fff;border-color:transparent}
+.abtn.on-pdt{background:var(--pdt);color:#fff;border-color:transparent}
+.arow{display:none;gap:4px}
+.gen{margin-top:24px;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px}
+.gen h3{font-size:13px;font-weight:500;margin-bottom:8px}
+.gen textarea{width:100%;min-height:80px;font-family:inherit;font-size:12.5px;color:var(--text);background:var(--surface-alt);border:1px solid var(--border);border-radius:var(--radius);padding:8px 10px;resize:vertical;line-height:1.5}
+.gen textarea:focus{outline:none;border-color:var(--accent-border)}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:center;justify-content:center;padding:20px;z-index:100}
+.modal.show{display:flex}
+.mbox{background:var(--surface);border-radius:12px;max-width:720px;width:100%;max-height:82vh;display:flex;flex-direction:column;overflow:hidden}
+.mhead{padding:14px 16px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;gap:12px}
+.mhead h3{font-size:14px;font-weight:500}
+.mbody{padding:14px 16px;overflow:auto;flex:1}
+.mbody pre{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;line-height:1.55;white-space:pre-wrap;word-break:break-word;color:var(--text)}
+.mfoot{padding:12px 16px;border-top:1px solid var(--border);display:flex;gap:8px;justify-content:flex-end}
+.err{padding:40px 0;color:var(--text-2);font-size:14px}
+</style>
+</head>
+<body>
+<h1 class="sr-only">Seguimiento de coloquios de calificación</h1>
+<div id="app"></div>
+<div class="modal" id="modal">
+  <div class="mbox">
+    <div class="mhead">
+      <h3>Export para el informe de calificación</h3>
+      <button class="tbtn" onclick="closeModal()">Cerrar</button>
+    </div>
+    <div class="mbody"><pre id="exp"></pre></div>
+    <div class="mfoot">
+      <button class="tbtn" onclick="dl()">Descargar .md</button>
+      <button class="tbtn" onclick="cp()" id="cpb">Copiar</button>
+    </div>
+  </div>
+</div>
+<script>
+const KEY = 'mcp-coloquios-v1';
+let INDEX = [], D = null, active = 'all', st = {}, notes = {}, gen = '';
+function load(){ try{ return JSON.parse(localStorage.getItem(KEY))||{} }catch(e){ return {} } }
+function save(){
+  const all = load();
+  all[D.id] = { st, notes, gen, ts: Date.now() };
+  try{ localStorage.setItem(KEY, JSON.stringify(all)) }catch(e){}
+}
+function esc(s){ const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML }
+async function boot(){
+  try{ INDEX = await (await fetch('data/index.json')).json(); }
+  catch(e){
+    document.getElementById('app').innerHTML='<div class="wrap"><p class="err">No se pudo cargar data/index.json</p></div>';
+    return;
+  }
+  const id = new URLSearchParams(location.search).get('a');
+  if(id) openStudent(id); else home();
+}
+function home(){
+  const all = load();
+  const rows = INDEX.map(s=>{
+    const rec = all[s.id];
+    let pill = '<span class="pill pill-none">sin revisar</span>';
+    if(rec && Object.keys(rec.st||{}).length){
+      const n = Object.keys(rec.st).length;
+      const cls = n>=s.n ? 'pill-done' : 'pill-prog';
+      pill = '<span class="pill '+cls+'">'+n+'/'+s.n+' relevados</span>';
+    }
+    return '<button class="scard" onclick="go(\'' +s.id+ '\')">'+
+      '<div class="scard-top"><span class="scard-name">'+esc(s.name)+'</span>'+pill+'</div>'+
+      '<div class="scard-ttl">'+esc(s.title)+'</div>'+
+      '<div class="scard-meta"><span>'+esc(s.modality)+'</span><span>'+s.n+' comentarios</span></div></button>';
+  }).join('');
+  document.getElementById('app').innerHTML =
+    '<div class="wrap home"><div class="home-eyebrow">Maestría en Compras Públicas · UNSAM · 2026</div>'+
+    '<div class="home-h1">Coloquios de calificación</div>'+
+    '<p class="home-p">Seleccioná el maestrando para seguir su exposición.</p>'+
+    '<div class="slist">'+rows+'</div></div>';
+}
+function go(id){ history.pushState({},'', '?a='+id); openStudent(id) }
+function back(){ history.pushState({},'', location.pathname); D=null; home() }
+window.onpopstate = () => { const id=new URLSearchParams(location.search).get('a'); id?openStudent(id):(D=null,home()) };
+async function openStudent(id){
+  const meta = INDEX.find(s=>s.id===id);
+  if(!meta){ back(); return }
+  try{ D = await (await fetch('data/'+id+'.json')).json() }
+  catch(e){ document.getElementById('app').innerHTML='<div class="wrap"><p class="err">No se pudo cargar ese alumno</p></div>'; return }
+  D.id = id;
+  const rec = load()[id] || {};
+  st = rec.st || {}; notes = rec.notes || {}; gen = rec.gen || '';
+  active='all';
+  render();
+}
+function render(){
+  const secs = D.sections;
+  const tabs = ['<button class="tab on" id="tab-all" onclick="tab(\'all\')">Todos</button>']
+    .concat(secs.map(s=>{
+      const cs = D.comments.filter(c=>c.sec===s.id);
+      return '<button class="tab" id="tab-'+s.id+'" onclick="tab(\'' +s.id+ '\')">'+
+        (cs.some(c=>c.p==='c')?'<span class="cdot"></span>':'')+esc(s.label)+
+        '<span class="tbadge">'+cs.length+'</span></button>';
+    })).join('');
+  const groups = secs.map(s=>{
+    const cs = D.comments.filter(c=>c.sec===s.id).sort((a,b)=>(a.p==='c'?0:1)-(b.p==='c'?0:1));
+    return '<div class="grp" id="grp-'+s.id+'"><div class="grp-h">'+esc(s.label)+'</div>'+cs.map(card).join('')+'</div>';
+  }).join('');
+  document.getElementById('app').innerHTML =
+  '<div class="topbar"><div class="tb-in">'+
+    '<div class="tb-row1"><button class="back" onclick="back()">&larr; Alumnos</button>'+
+    '<div><div class="tb-name">'+esc(D.name)+'</div><div class="tb-ttl">'+esc(D.title)+'</div></div></div>'+
+    '<div class="tb-row2">'+
+      '<span class="stat">Relevados <b id="s-ap">0/'+D.comments.length+'</b></span>'+
+      '<span class="stat"><span class="dot" style="background:var(--ok)"></span>OK <b id="s-ok">0</b></span>'+
+      '<span class="stat"><span class="dot" style="background:var(--pdt)"></span>Pdt <b id="s-pd">0</b></span>'+
+      '<div class="barw"><div class="bar" id="bar"></div></div>'+
+      '<button class="tbtn" onclick="exportar()">Exportar</button>'+
+      '<button class="tbtn" onclick="reset()">Reiniciar</button>'+
+    '</div></div></div>'+
+  '<div class="tabbar"><div class="tabs">'+tabs+'</div></div>'+
+  '<div class="wrap main">'+groups+
+    '<div class="gen"><h3>Observaciones generales del coloquio</h3>'+
+    '<textarea id="gen" placeholder="Notas libres sobre la exposición y las respuestas del alumno"></textarea></div>'+
+  '</div>';
+  document.getElementById('gen').value = gen;
+  document.getElementById('gen').oninput = e => { gen = e.target.value; save() };
+  const h = document.querySelector('.topbar').offsetHeight;
+  document.querySelector('.tabbar').style.top = h+'px';
+  D.comments.forEach(c=>{
+    const n = document.getElementById('n-'+c.id);
+    if(n){ n.value = notes[c.id]||''; n.oninput = e => { notes[c.id]=e.target.value; save() } }
+    paint(c.id);
+  });
+  prog();
+}
+function card(c){
+  return '<div class="card '+(c.p==='c'?'crit':'sug')+'" id="card-'+c.id+'"><div class="ctop"><div class="cbody">'+
+    '<div class="ctitle"><span class="badge '+(c.p==='c'?'b-c':'b-s')+'">'+(c.p==='c'?'crítico':'sugerido')+'</span>'+esc(c.title)+'</div>'+
+    '<div class="csum">'+esc(c.sum)+'</div>'+
+    '<div class="csug"><b>&rarr; Sugerencia:</b> '+esc(c.sug)+'</div>'+
+    (c.q?'<div class="cq" id="q-'+c.id+'"><b>Pregunta:</b> '+esc(c.q)+'</div>':'')+
+    '<textarea class="cnote" id="n-'+c.id+'" placeholder="Nota durante la exposición"></textarea>'+
+    '</div><div class="cacts">'+
+    '<button class="abtn" id="ba-'+c.id+'" onclick="tApp(\'' +c.id+ '\')">Apareció</button>'+
+    '<div class="arow" id="ar-'+c.id+'">'+
+      '<button class="abtn" id="bo-'+c.id+'" onclick="tOk(\'' +c.id+ '\')">&#10003; OK</button>'+
+      '<button class="abtn" id="bp-'+c.id+'" onclick="tPd(\'' +c.id+ '\')">&#10007; Pdt</button>'+
+    '</div></div></div></div>';
+}
+function tab(id){
+  active=id;
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));
+  document.getElementById('tab-'+id).classList.add('on');
+  document.querySelectorAll('.grp').forEach(g=>{ g.classList.toggle('hide', id!=='all' && g.id!=='grp-'+id) });
+}
+function tApp(id){ st[id]?delete st[id]:st[id]='app'; paint(id); prog(); save() }
+function tOk(id){ st[id]=st[id]==='ok'?'app':'ok'; paint(id); prog(); save() }
+function tPd(id){ st[id]=st[id]==='pdt'?'app':'pdt'; paint(id); prog(); save() }
+function paint(id){
+  const s=st[id], on=!!s, el=document.getElementById('card-'+id);
+  if(!el) return;
+  el.classList.remove('s-app','s-ok','s-pdt');
+  if(s) el.classList.add('s-'+s);
+  const ba=document.getElementById('ba-'+id);
+  ba.classList.toggle('on-app',on); ba.innerHTML = on?'&#10003; Apareció':'Apareció';
+  document.getElementById('ar-'+id).style.display = on?'flex':'none';
+  document.getElementById('bo-'+id).classList.toggle('on-ok',s==='ok');
+  document.getElementById('bp-'+id).classList.toggle('on-pdt',s==='pdt');
+  const q=document.getElementById('q-'+id); if(q) q.style.display = on?'block':'none';
+  document.getElementById('n-'+id).style.display = on?'block':'none';
+}
+function prog(){
+  const t=D.comments.length, k=Object.keys(st);
+  document.getElementById('s-ap').textContent=k.length+'/'+t;
+  document.getElementById('s-ok').textContent=k.filter(i=>st[i]==='ok').length;
+  document.getElementById('s-pd').textContent=k.filter(i=>st[i]==='pdt').length;
+  document.getElementById('bar').style.width=Math.round(k.length/t*100)+'%';
+}
+function reset(){
+  if(!confirm('¿Borrar todas las marcas y notas de este alumno?')) return;
+  st={}; notes={}; gen='';
+  D.comments.forEach(c=>{ const n=document.getElementById('n-'+c.id); if(n)n.value=''; paint(c.id) });
+  document.getElementById('gen').value=''; prog(); save();
+}
+function build(){
+  const L=[], lbl=id=>(D.sections.find(s=>s.id===id)||{}).label||id;
+  L.push('# Registro de coloquio — '+D.name);
+  L.push('');
+  L.push('**Título:** '+D.title);
+  L.push('**Modalidad:** '+D.modality);
+  L.push('**Fecha del coloquio:** '+new Date().toLocaleDateString('es-AR'));
+  L.push('');
+  const k=Object.keys(st);
+  L.push('**Resumen:** '+k.length+' de '+D.comments.length+' comentarios relevados · '+
+    k.filter(i=>st[i]==='ok').length+' abordados · '+k.filter(i=>st[i]==='pdt').length+' pendientes');
+  L.push('');
+  const pd=D.comments.filter(c=>st[c.id]==='pdt');
+  if(pd.length){
+    L.push('## Pendientes — trasladar al informe de calificación');
+    L.push('');
+    pd.forEach(c=>{
+      L.push('### ['+(c.p==='c'?'CRÍTICO':'SUGERIDO')+'] '+c.title+' ('+lbl(c.sec)+')');
+      L.push('- Observación: '+c.sum);
+      L.push('- Corrección requerida: '+c.sug);
+      if(notes[c.id]) L.push('- Nota del coloquio: '+notes[c.id]);
+      L.push('');
+    });
+  }
+  const ok=D.comments.filter(c=>st[c.id]==='ok');
+  if(ok.length){
+    L.push('## Abordados satisfactoriamente en la exposición');
+    L.push('');
+    ok.forEach(c=>L.push('- **'+c.title+'** ('+lbl(c.sec)+')'+(notes[c.id]?' — '+notes[c.id]:'')));
+    L.push('');
+  }
+  const nt=D.comments.filter(c=>!st[c.id]);
+  if(nt.length){
+    L.push('## No abordados en la exposición');
+    L.push('');
+    nt.forEach(c=>L.push('- ['+(c.p==='c'?'CRÍTICO':'SUGERIDO')+'] '+c.title+' ('+lbl(c.sec)+')'));
+    L.push('');
+  }
+  if(gen.trim()){ L.push('## Observaciones generales'); L.push(''); L.push(gen.trim()); L.push('') }
+  if(D.grading){
+    L.push('## Recomendación previa del especialista (pre-coloquio)');
+    L.push('');
+    L.push('- Categoría: '+D.grading.cat);
+    if(D.grading.score) L.push('- Calificación sugerida: '+D.grading.score);
+    if(D.grading.note) L.push('- Fundamento: '+D.grading.note);
+    L.push('');
+  }
+  L.push('---');
+  L.push('');
+  L.push('Generar el Informe de Calificación oficial a partir de este registro.');
+  return L.join(String.fromCharCode(10));
+}
+function exportar(){ document.getElementById('exp').textContent=build(); document.getElementById('modal').classList.add('show') }
+function closeModal(){ document.getElementById('modal').classList.remove('show') }
+function dl(){
+  const b=new Blob([build()],{type:'text/markdown'}), u=URL.createObjectURL(b), a=document.createElement('a');
+  a.href=u; a.download='coloquio-'+D.id+'.md'; a.click(); URL.revokeObjectURL(u);
+}
+function cp(){
+  navigator.clipboard.writeText(build()).then(()=>{
+    const b=document.getElementById('cpb'); b.textContent='Copiado'; setTimeout(()=>b.textContent='Copiar',1500);
+  }).catch(()=>{});
+}
+document.getElementById('modal').onclick = e => { if(e.target.id==='modal') closeModal() };
+boot();
+</script>
+</body>
+</html>
