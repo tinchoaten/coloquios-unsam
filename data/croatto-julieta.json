@@ -1,0 +1,102 @@
+{
+  "name": "Croatto, Julieta María",
+  "title": "Análisis de los criterios interpretativos de la Oficina Nacional de Contrataciones de la República Argentina sobre \"oferta más conveniente\" y su relación con los principios en el periodo 2020-2023",
+  "modality": "Análisis jurídico · Hermenéutica jurídica",
+  "sections": [
+    { "id": "titulo", "label": "Título" },
+    { "id": "problematica", "label": "Problema de investigación" },
+    { "id": "justificacion", "label": "Justificación" },
+    { "id": "marco", "label": "Marco teórico" },
+    { "id": "objetivos", "label": "Objetivos" },
+    { "id": "metodologia", "label": "Metodología" },
+    { "id": "bibliografia", "label": "Bibliografía" }
+  ],
+  "comments": [
+    {
+      "id": "c1",
+      "sec": "marco",
+      "p": "c",
+      "title": "Ausencia de apartado de antecedentes de investigación",
+      "sum": "El proyecto no tiene un apartado explícito que posicione la investigación frente a la literatura académica preexistente sobre el tema. Para hermenéutica jurídica es especialmente relevante identificarse frente a posiciones doctrinarias interpretativas existentes.",
+      "sug": "Agregar un apartado de antecedentes —aunque sea breve— que identifique lo ya investigado sobre los dictámenes ONC y la oferta más conveniente, y que justifique el aporte propio del trabajo.",
+      "q": "¿Qué investigaciones previas encontró sobre análisis de dictámenes de la ONC en materia de oferta más conveniente? ¿En qué se diferencia su trabajo de esos antecedentes?"
+    },
+    {
+      "id": "c2",
+      "sec": "objetivos",
+      "p": "c",
+      "title": "Tensión entre el verbo del OG y los verbos de los OE",
+      "sum": "\"Caracterizar\" (OG) implica describir y tipificar; \"evaluar\" (OE 2 y 4) implica un juicio analítico de mayor exigencia. Son alcances metodológicos distintos que generan expectativas diferentes para el trabajo final.",
+      "sug": "Decidir el alcance real: si el trabajo evalúa, reemplazar \"caracterizar\" por \"analizar\" o \"examinar\" en el OG. Si solo caracteriza, moderar los verbos de los OE 2 y 4.",
+      "q": "¿El trabajo se propone describir cómo se expresa la coherencia, o determinar si esa coherencia existe y en qué grado? ¿Qué diferencia haría eso en los resultados que espera obtener?"
+    },
+    {
+      "id": "c3",
+      "sec": "metodologia",
+      "p": "c",
+      "title": "Limitación del corpus no articulada como limitación de investigación",
+      "sum": "El compendio ONC es una selección institucional, no la totalidad de dictámenes emitidos. Esto impacta el OE 3 (uniformidad), que requiere cierta confianza en la representatividad del corpus para derivar conclusiones válidas.",
+      "sug": "Incorporar un apartado de \"limitaciones de la investigación\" que trate explícitamente este punto y reflexione sobre su impacto en el alcance del OE 3.",
+      "q": "Si el compendio es lo que la ONC eligió publicar, ¿cómo manejará esa limitación al sacar conclusiones sobre uniformidad o variación de criterios?"
+    },
+    {
+      "id": "c4",
+      "sec": "titulo",
+      "p": "s",
+      "title": "\"Los principios\" es demasiado genérico en el título",
+      "sum": "\"Su relación con los principios\" no especifica cuáles. El trabajo analiza los principios rectores del art. 3 del Decreto delegado n.° 1.023/2001 (razonabilidad, concurrencia, transparencia, publicidad, igualdad).",
+      "sug": "Reemplazar por \"...y su relación con los principios rectores del régimen de contrataciones públicas, período 2020-2023\".",
+      "q": null
+    },
+    {
+      "id": "c5",
+      "sec": "bibliografia",
+      "p": "s",
+      "title": "Dos autores Cassagne sin distinción en el cuerpo del texto",
+      "sum": "La bibliografía distingue a Cassagne, E. (2013) y Cassagne, J. (2021), pero el texto los cita como \"Cassagne (año)\" sin inicial, generando ambigüedad sobre a cuál se refiere.",
+      "sug": "Usar la inicial en cada cita del texto: \"Cassagne, E. (2013)\" y \"Cassagne, J. (2021)\".",
+      "q": null
+    },
+    {
+      "id": "c6",
+      "sec": "bibliografia",
+      "p": "s",
+      "title": "Falta sustento teórico específico para el análisis de ponderación",
+      "sum": "El OE 4 analiza tensión entre principios, pero el marco no incluye referencias directas a teoría de la ponderación. MacCormick aparece solo citado indirectamente a través de Atienza.",
+      "sug": "Incorporar Alexy, R. (Teoría de los derechos fundamentales o \"La ponderación en el derecho constitucional\") para reforzar el andamiaje teórico del OE 4.",
+      "q": "¿Cómo va a operacionalizar la \"preferencia expresada\" entre principios en los dictámenes? ¿Qué le hace decir que un principio prevaleció sobre otro en un caso concreto?"
+    },
+    {
+      "id": "c7",
+      "sec": "marco",
+      "p": "s",
+      "title": "Decreto 1091/2024 modifica el marco normativo de referencia",
+      "sum": "El Decreto 1091/2024 modificó el art. 25 inc. d) del Dec. 1.023/2001. Es posterior al período analizado, pero el trabajo no menciona el estado actual de la normativa de referencia.",
+      "sug": "Agregar una nota en el marco normativo que distinga entre el régimen vigente durante 2020-2023 y el estado actual, situando al lector temporalmente.",
+      "q": null
+    },
+    {
+      "id": "c8",
+      "sec": "metodologia",
+      "p": "s",
+      "title": "Categorías analíticas del marco no retomadas en la metodología",
+      "sum": "Coherencia, uniformidad y ponderación están definidas en el marco teórico, pero la sección metodológica no las recupera explícitamente como unidades de análisis del corpus.",
+      "sug": "Agregar en la metodología una referencia a esas tres categorías como instrumento de lectura de los dictámenes, cerrando el circuito entre la teoría y el procedimiento empírico.",
+      "q": null
+    },
+    {
+      "id": "c9",
+      "sec": "metodologia",
+      "p": "s",
+      "title": "Sub-modalidad hermenéutica sin justificación explícita",
+      "sum": "La elección de la hermenéutica jurídica sobre otras sub-modalidades (como la revisión doctrinaria, declarada en el TP1) no está fundamentada en el texto del proyecto.",
+      "sug": "Agregar un párrafo en el apartado de modalidad que explique por qué la hermenéutica es la sub-modalidad más adecuada para estudiar la interpretación de un concepto jurídico indeterminado.",
+      "q": "¿Por qué eligió hermenéutica jurídica y no revisión doctrinaria o jurisprudencial? ¿En qué cambia la forma de aproximarse al objeto de análisis?"
+    }
+  ],
+  "grading": {
+    "cat": "APROBADO CON OBSERVACIONES MENORES",
+    "score": "8",
+    "note": "Diseño sólido con pregunta bien problematizada y marco conceptual propio (coherencia, uniformidad, ponderación). Los tres comentarios críticos son resolubles sin reformular el diseño de base. Dato MAPS 31,3% verificado y confirmado. Se identificó reforma normativa posterior al período analizado (Dec. 1091/2024) que requiere nota aclaratoria pero no afecta el objeto del trabajo."
+  }
+}
