@@ -1,0 +1,90 @@
+{
+  "name": "Abg. Matías Luciano José",
+  "title": "La naturaleza jurídica de los certificados de obra pública en la normativa entrerriana: análisis doctrinario y jurisprudencial (2015-2025)",
+  "modality": "Análisis jurídico · Revisión sistemática de antecedentes doctrinarios y/o jurisprudenciales",
+  "sections": [
+    { "id": "titulo", "label": "Título" },
+    { "id": "problematica", "label": "Problemática" },
+    { "id": "justificacion", "label": "Justificación" },
+    { "id": "marco", "label": "Marco teórico" },
+    { "id": "objetivos", "label": "Objetivos" },
+    { "id": "bibliografia", "label": "Bibliografía" }
+  ],
+  "comments": [
+    {
+      "id": "c9", "sec": "titulo", "p": "s",
+      "title": "Título no refleja la reforma legislativa",
+      "sum": "El subtítulo (\"análisis doctrinario y jurisprudencial\") omite que la Ley 11.151 es el hilo conductor del problema.",
+      "sug": "Ajustar el subtítulo para que la reforma quede visible, por ejemplo: \"…doctrina, jurisprudencia y el impacto de la Ley 11.151 (2015-2025)\".",
+      "q": null
+    },
+    {
+      "id": "c3", "sec": "problematica", "p": "s",
+      "title": "Prórroga de emergencia en 2026 no mencionada",
+      "sum": "La Ley 11.138 fue restablecida hasta el 31/12/2026 (aprobado en enero de 2026). El trabajo la da por vencida en 2025.",
+      "sug": "Incorporar la prórroga en la problemática o en la justificación, o reconocerla explícitamente como limitación del recorte temporal adoptado.",
+      "q": "¿Tuvo en cuenta la prórroga aprobada en enero de 2026 al definir el recorte temporal 2015-2025?"
+    },
+    {
+      "id": "c6", "sec": "justificacion", "p": "s",
+      "title": "Relevamiento preliminar sin precisar",
+      "sum": "La originalidad descansa en la ausencia de antecedentes, pero no se especificaron repositorios ni revistas consultadas.",
+      "sug": "Precisar qué repositorios y revistas se consultaron (UNSAM, Austral, UBA, UNER; RAP, Revista de Derecho Administrativo) para fundamentar la afirmación de originalidad.",
+      "q": "¿En qué repositorios o revistas especializadas realizó el relevamiento preliminar?"
+    },
+    {
+      "id": "c2", "sec": "marco", "p": "c",
+      "title": "García de Enterría: grafía errónea y cita indirecta",
+      "sum": "Nombre mal escrito (\"Entrerría\"). La cita es indirecta vía Jara (2009) pero se presenta como directa; el autor no figura en la bibliografía.",
+      "sug": "Corregir la grafía en todo el trabajo. Reescribir como cita indirecta: \"(García de Enterría y Fernández, 2007, citado en Jara, 2009, p. 176)\". Incluir solo a Jara/Linares Jara en las referencias.",
+      "q": "¿Se accedió directamente al texto de García de Enterría y Fernández (2007)?"
+    },
+    {
+      "id": "c7", "sec": "marco", "p": "s",
+      "title": "Rol periférico de Linares Jara (2009)",
+      "sum": "Su único aporte es transportar la cita a García de Enterría. El título (\"adicionales de obra pública\") es tangencial al objeto.",
+      "sug": "Evaluar si conviene acceder directamente a García de Enterría y Fernández (2007) y citarlo de forma directa, o bien reconsiderar el rol de esta fuente en el marco teórico.",
+      "q": null
+    },
+    {
+      "id": "c8", "sec": "marco", "p": "s",
+      "title": "Ausencia de doctrina procesalista complementaria",
+      "sum": "No hay referencias sobre ejecución forzada de créditos contra el Estado en derecho procesal provincial, núcleo del conflicto que abre la Ley 11.151.",
+      "sug": "Incorporar bibliografía sobre las vías de cobro de créditos contra el Estado en el fuero contencioso administrativo provincial, para contextualizar el cambio procesal.",
+      "q": "¿Contempla incorporar doctrina sobre las vías de cobro en el fuero contencioso administrativo provincial?"
+    },
+    {
+      "id": "c10", "sec": "marco", "p": "s",
+      "title": "Ambigüedad en \"Martínez (1997)\"",
+      "sum": "Podría ser Martínez Lozano (artículo español) u otro autor. Pinto Rodríguez lo usa para la categoría \"Títulos de Legitimación\".",
+      "sug": "Verificar cuál Martínez (1997) cita Pinto Rodríguez y escribir el apellido completo (p. ej. \"Martínez Lozano\") en todas las menciones.",
+      "q": "¿La referencia a Martínez (1997) en Pinto Rodríguez es Martínez Lozano u otro autor?"
+    },
+    {
+      "id": "c1", "sec": "objetivos", "p": "c",
+      "title": "OE2 introduce derecho comparado incompatible",
+      "sum": "Comparar con las 23 jurisdicciones restantes no es coherente con la submodalidad declarada y hace inviable el trabajo por extensión.",
+      "sug": "Eliminar el OE2 o reemplazarlo por una comparación acotada (una o dos jurisdicciones) sobre el punto en disputa. Si se mantiene la comparación amplia, declarar la sub-modalidad \"derecho comparado\" con sus requisitos propios.",
+      "q": "¿Cómo piensa abordar esa comparación sin comprometer la submodalidad declarada ni exceder los límites de extensión?"
+    },
+    {
+      "id": "c5", "sec": "objetivos", "p": "s",
+      "title": "OE1: \"pormenorizadamente\" puede absorber extensión desproporcionada",
+      "sum": "La caracterización general del contrato puede desplazar el espacio de los OE centrales (3-5) si no se acota su alcance.",
+      "sug": "Calibrar el OE1 para que funcione como capítulo introductorio acotado, sin superar el 10-15% de la extensión total del trabajo.",
+      "q": "¿Cuánta extensión estima dedicar a la caracterización del contrato de obra pública en general?"
+    },
+    {
+      "id": "c4", "sec": "bibliografia", "p": "s",
+      "title": "Referencia inconsistente: Beltrán Gorostegui",
+      "sum": "En el texto: \"Beltrán Gorostegui\". En la lista de referencias: \"Gorostegui, B.\" — falta el primer apellido compuesto.",
+      "sug": "Corregir en las referencias a \"Beltrán Gorostegui, B. (2009)…\" y verificar que todas las menciones en el texto usen el apellido compuesto completo.",
+      "q": null
+    }
+  ],
+  "grading": {
+    "cat": "APROBADO CON OBSERVACIONES MENORES",
+    "score": "8",
+    "note": "Concepción robusta, dominio del campo, problemática jurídica real y relevante. El problema del OE2 es un ajuste puntual de diseño que no compromete la estructura global."
+  }
+}
