@@ -1,0 +1,114 @@
+{
+  "name": "Agustín De Leo",
+  "title": "La participación efectiva de las Pequeñas y Medianas Empresas (PyMEs) en las compras públicas de la Ciudad Autónoma de Buenos Aires, análisis de las adjudicaciones registradas en el sistema Buenos Aires Compras (BAC) según modalidad de contratación (2020–2024)",
+  "modality": "Estudio de caso único · Diacrónico · Inferencia descriptiva",
+  "sections": [
+    {
+      "id": "titulo",
+      "label": "Título"
+    },
+    {
+      "id": "problematica",
+      "label": "Problemática"
+    },
+    {
+      "id": "justificacion",
+      "label": "Justificación"
+    },
+    {
+      "id": "objetivos",
+      "label": "Objetivos"
+    },
+    {
+      "id": "marco",
+      "label": "Marco teórico"
+    },
+    {
+      "id": "metodologia",
+      "label": "Metodología"
+    },
+    {
+      "id": "bibliografia",
+      "label": "Bibliografía"
+    }
+  ],
+  "comments": [
+    {
+      "id": "c1",
+      "sec": "objetivos",
+      "p": "c",
+      "title": "Objetivos puramente descriptivos, sin tensión analítica",
+      "sum": "Los cuatro objetivos específicos son íntegramente descriptivos. El marco teórico no genera ninguna proposición que la investigación empírica deba contrastar, lo que aproxima el trabajo a un informe estadístico antes que a una tesis de Maestría.",
+      "sug": "Incorporar al menos una proposición analítica derivada del marco teórico. Por ejemplo: se espera que la participación PyME sea mayor en Contrataciones Menores que en Licitaciones Públicas, dado el menor umbral de requisitos formales.",
+      "q": "¿Qué resultado empírico te generaría sorpresa o te haría revisar algún supuesto teórico?"
+    },
+    {
+      "id": "c2",
+      "sec": "metodologia",
+      "p": "c",
+      "title": "Ambigüedad en la identificación de PyMEs en BAC",
+      "sum": "El trabajo usa indistintamente el Certificado MiPyME (AFIP, legislación nacional) y la clasificación del RIUP (GCABA) para identificar PyMEs. Son instrumentos distintos. Si el dato base es inconsistente, el análisis cuantitativo queda comprometido.",
+      "sug": "Consultar la documentación del BAC/RIUP y precisar qué campo registra la condición PyME, cuál es su fuente y sus limitaciones. Incorporarlo en el OE1 y en la sección metodológica.",
+      "q": "¿Verificaste que el BAC registra la condición PyME de forma uniforme para todos los proveedores del período 2020–2024?"
+    },
+    {
+      "id": "c3",
+      "sec": "objetivos",
+      "p": "c",
+      "title": "OE1 es una tarea preparatoria, no un objetivo de investigación",
+      "sum": "\"Analizar las características institucionales y normativas del BAC\" es una tarea preparatoria para interpretar los datos, no un objetivo autónomo. No contribuye directamente al objetivo general.",
+      "sug": "Reformular: \"Identificar de qué manera la Ley N.° 2.095 y su reglamentación establecen condiciones diferenciales de acceso para las PyMEs según la modalidad de contratación.\"",
+      "q": null
+    },
+    {
+      "id": "c4",
+      "sec": "bibliografia",
+      "p": "s",
+      "title": "De Michele & Pierri (2020) analiza COMPR.AR, no BAC",
+      "sum": "La referencia existe y es válida, pero estudia COMPR.AR (sistema nacional de la ONC), no el BAC (sistema propio del GCABA). Son plataformas distintas; sus hallazgos no son directamente extrapolables.",
+      "sug": "Aclarar explícitamente que son sistemas distintos, o reemplazar por una fuente que analice el BAC o sistemas de compras subnacionales comparables.",
+      "q": "¿Existe literatura específica sobre el BAC o sobre sistemas de compras subnacionales en Argentina?"
+    },
+    {
+      "id": "c5",
+      "sec": "bibliografia",
+      "p": "s",
+      "title": "OCP (2022) es un blog post institucional, no fuente académica",
+      "sum": "El reporte de Open Contracting Partnership (2022) es un blog post sin revisión por pares. Contiene datos valiosos —67% de PyMEs desconocía las oportunidades; problemas en el registro de proveedores— pero no se distingue su naturaleza.",
+      "sug": "Clasificarlo como fuente institucional en la bibliografía e integrar activamente sus datos en el planteamiento del problema.",
+      "q": null
+    },
+    {
+      "id": "c6",
+      "sec": "objetivos",
+      "p": "s",
+      "title": "OE2 y OE3 se superponen",
+      "sum": "Examinar cantidades y montos 2020–2024 (OE2) y analizar patrones y variaciones temporales (OE3) son operaciones difíciles de separar en la práctica.",
+      "sug": "Diferenciarlos con precisión: OE2 describe valores anuales absolutos y relativos; OE3 construye y evalúa tendencias e inflexiones en la serie temporal.",
+      "q": null
+    },
+    {
+      "id": "c7",
+      "sec": "marco",
+      "p": "s",
+      "title": "Eje de digitalización sin correlato en los objetivos",
+      "sum": "El Eje 3 del marco teórico (digitalización) no tiene ningún objetivo específico que lo opere empíricamente. El período fue elegido por incluir la consolidación de procedimientos electrónicos, pero eso no se mide.",
+      "sug": "Articular el eje con algún objetivo —por ejemplo, distinguir si la evolución coincide con hitos de digitalización del BAC— o reformularlo como puramente contextual.",
+      "q": "¿Planeás identificar algún momento de inflexión vinculado a la digitalización del sistema?"
+    },
+    {
+      "id": "c8",
+      "sec": "bibliografia",
+      "p": "s",
+      "title": "Inconsistencia en el año de Rozenwurcel & Drewes",
+      "sum": "La misma obra aparece citada como (2014) en el TP1 y como (2012) en el TP2.",
+      "sug": "Verificar el año exacto en el repositorio del Centro iDeAS (UNSAM) y unificar la cita.",
+      "q": null
+    }
+  ],
+  "grading": {
+    "cat": "APROBADO CON OBSERVACIONES",
+    "score": "7",
+    "note": "Trabajo viable con mejora sustancial respecto del TP1: diseño factible, datos accesibles, marco teórico expandido. Dos problemas críticos subsanables sin reformular el diseño: precisar la identificación de PyMEs en el BAC y agregar una proposición analítica que articule teoría y objetivos empíricos."
+  }
+    }
