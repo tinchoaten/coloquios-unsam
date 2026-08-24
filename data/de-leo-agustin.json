@@ -3,112 +3,83 @@
   "title": "La participación efectiva de las Pequeñas y Medianas Empresas (PyMEs) en las compras públicas de la Ciudad Autónoma de Buenos Aires, análisis de las adjudicaciones registradas en el sistema Buenos Aires Compras (BAC) según modalidad de contratación (2020–2024)",
   "modality": "Estudio de caso único · Diacrónico · Inferencia descriptiva",
   "sections": [
-    {
-      "id": "titulo",
-      "label": "Título"
-    },
-    {
-      "id": "problematica",
-      "label": "Problemática"
-    },
-    {
-      "id": "justificacion",
-      "label": "Justificación"
-    },
-    {
-      "id": "objetivos",
-      "label": "Objetivos"
-    },
-    {
-      "id": "marco",
-      "label": "Marco teórico"
-    },
-    {
-      "id": "metodologia",
-      "label": "Metodología"
-    },
-    {
-      "id": "bibliografia",
-      "label": "Bibliografía"
-    }
+    { "id": "titulo",       "label": "Título" },
+    { "id": "tema",         "label": "Tema" },
+    { "id": "problematica", "label": "Formulación del problema" },
+    { "id": "justificacion","label": "Justificación" },
+    { "id": "objetivos",    "label": "Objetivos" },
+    { "id": "marco",        "label": "Marco teórico" },
+    { "id": "metodologia",  "label": "Metodología" },
+    { "id": "bibliografia", "label": "Bibliografía" }
   ],
   "comments": [
     {
       "id": "c1",
       "sec": "objetivos",
       "p": "c",
-      "title": "Objetivos puramente descriptivos, sin tensión analítica",
-      "sum": "Los cuatro objetivos específicos son íntegramente descriptivos. El marco teórico no genera ninguna proposición que la investigación empírica deba contrastar, lo que aproxima el trabajo a un informe estadístico antes que a una tesis de Maestría.",
-      "sug": "Incorporar al menos una proposición analítica derivada del marco teórico. Por ejemplo: se espera que la participación PyME sea mayor en Contrataciones Menores que en Licitaciones Públicas, dado el menor umbral de requisitos formales.",
-      "q": "¿Qué resultado empírico te generaría sorpresa o te haría revisar algún supuesto teórico?"
+      "title": "Ausencia de proposición analítica que oriente la descripción",
+      "sum": "Los cuatro objetivos específicos son íntegramente descriptivos. El marco teórico presenta cuatro ejes bien articulados pero ninguno genera una expectativa sobre qué se espera encontrar en las adjudicaciones. Sin esa orientación, la tesis corre el riesgo de quedar como un informe estadístico antes que como una investigación académica.",
+      "sug": "Incorporar al menos una proposición descriptiva derivada de la literatura. Por ejemplo: dado que procedimientos de menor escala favorecen a empresas pequeñas (Rozenwurcel y Drewes, 2012; Gómez Fariñas, 2020), cabría esperar mayor participación PyME en Contrataciones Menores que en Licitaciones Públicas.",
+      "q": "¿Qué resultado empírico te generaría sorpresa o te llevaría a revisar algún supuesto del marco teórico?"
     },
     {
       "id": "c2",
-      "sec": "metodologia",
+      "sec": "objetivos",
       "p": "c",
-      "title": "Ambigüedad en la identificación de PyMEs en BAC",
-      "sum": "El trabajo usa indistintamente el Certificado MiPyME (AFIP, legislación nacional) y la clasificación del RIUP (GCABA) para identificar PyMEs. Son instrumentos distintos. Si el dato base es inconsistente, el análisis cuantitativo queda comprometido.",
-      "sug": "Consultar la documentación del BAC/RIUP y precisar qué campo registra la condición PyME, cuál es su fuente y sus limitaciones. Incorporarlo en el OE1 y en la sección metodológica.",
-      "q": "¿Verificaste que el BAC registra la condición PyME de forma uniforme para todos los proveedores del período 2020–2024?"
+      "title": "OE1 sigue siendo una tarea preparatoria, no un objetivo de investigación autónomo",
+      "sum": "La cláusula 'que resultan relevantes para el estudio de la participación de las PyMEs' es una mejora, pero el OE1 sigue describiendo contexto necesario para interpretar los datos en lugar de producir un resultado analítico propio. Tampoco contribuye directamente al objetivo general.",
+      "sug": "Reformular: 'Identificar de qué manera el marco normativo del GCABA —en particular la Ley N.º 2.095 y su reglamentación— establece condiciones diferenciales de acceso para las PyMEs según la modalidad de contratación.'",
+      "q": null
     },
     {
       "id": "c3",
       "sec": "objetivos",
-      "p": "c",
-      "title": "OE1 es una tarea preparatoria, no un objetivo de investigación",
-      "sum": "\"Analizar las características institucionales y normativas del BAC\" es una tarea preparatoria para interpretar los datos, no un objetivo autónomo. No contribuye directamente al objetivo general.",
-      "sug": "Reformular: \"Identificar de qué manera la Ley N.° 2.095 y su reglamentación establecen condiciones diferenciales de acceso para las PyMEs según la modalidad de contratación.\"",
+      "p": "s",
+      "title": "Superposición entre OE2 y OE3",
+      "sum": "Examinar cantidades y montos 2020–2024 (OE2) y analizar patrones y variaciones temporales (OE3) siguen siendo difíciles de separar en la práctica. La tabla de operacionalización ayuda, pero la formulación de los objetivos no deja ver esa diferencia.",
+      "sug": "Diferenciarlos explícitamente: OE2 describe valores absolutos y relativos por año; OE3 construye y evalúa tendencias e inflexiones en la serie temporal —operaciones distintas sobre la secuencia, no solo lectura año a año.",
       "q": null
     },
     {
       "id": "c4",
-      "sec": "bibliografia",
+      "sec": "marco",
       "p": "s",
-      "title": "De Michele & Pierri (2020) analiza COMPR.AR, no BAC",
-      "sum": "La referencia existe y es válida, pero estudia COMPR.AR (sistema nacional de la ONC), no el BAC (sistema propio del GCABA). Son plataformas distintas; sus hallazgos no son directamente extrapolables.",
-      "sug": "Aclarar explícitamente que son sistemas distintos, o reemplazar por una fuente que analice el BAC o sistemas de compras subnacionales comparables.",
-      "q": "¿Existe literatura específica sobre el BAC o sobre sistemas de compras subnacionales en Argentina?"
+      "title": "Eje de digitalización sin correlato empírico en los objetivos",
+      "sum": "El tercer eje del marco teórico está trabajado con madurez, pero ninguno de los cuatro OE propone examinar si la evolución observada guarda relación con hitos del proceso de digitalización del BAC, pese a que el período fue elegido precisamente por esa razón.",
+      "sug": "Articular el eje con algún objetivo —por ejemplo, señalar si se analizará si inflexiones en la serie temporal coinciden con hitos del sistema BAC— o reformularlo explícitamente como puramente contextual.",
+      "q": "¿Planeás identificar algún momento de inflexión vinculado a la digitalización del sistema?"
     },
     {
       "id": "c5",
       "sec": "bibliografia",
       "p": "s",
-      "title": "OCP (2022) es un blog post institucional, no fuente académica",
-      "sum": "El reporte de Open Contracting Partnership (2022) es un blog post sin revisión por pares. Contiene datos valiosos —67% de PyMEs desconocía las oportunidades; problemas en el registro de proveedores— pero no se distingue su naturaleza.",
-      "sug": "Clasificarlo como fuente institucional en la bibliografía e integrar activamente sus datos en el planteamiento del problema.",
+      "title": "Error en año de Dini & Stumpo / CEPAL: texto dice 2021, bibliografía dice 2018, año correcto es 2020",
+      "sum": "La cita en el texto indica '(CEPAL, 2021)' pero la referencia bibliográfica consigna 2018. Según verificación en el repositorio de la CEPAL, la publicación Mipymes en América Latina (LC/TS.2018/75) fue editada en diciembre de 2020. El código '2018' refiere al año del documento de trabajo, no a la publicación final.",
+      "sug": "Corregir la cita in-text a '(Dini y Stumpo, 2020)' y actualizar la entrada bibliográfica a 2020. Verificar: https://www.cepal.org/es/publicaciones/44148",
       "q": null
     },
     {
       "id": "c6",
-      "sec": "objetivos",
+      "sec": "bibliografia",
       "p": "s",
-      "title": "OE2 y OE3 se superponen",
-      "sum": "Examinar cantidades y montos 2020–2024 (OE2) y analizar patrones y variaciones temporales (OE3) son operaciones difíciles de separar en la práctica.",
-      "sug": "Diferenciarlos con precisión: OE2 describe valores anuales absolutos y relativos; OE3 construye y evalúa tendencias e inflexiones en la serie temporal.",
+      "title": "Inconsistencia en el año de Saavedra: (2011) y (2010) en el texto",
+      "sum": "El mismo autor y obra aparecen citados con dos años distintos: (2011) en la sección de Formulación del Problema y (2010) en el Marco Teórico. La entrada bibliográfica consigna (2010).",
+      "sug": "Unificar todas las citas al año que figura en la referencia bibliográfica final (2010), verificando contra el documento original del Programa ICT4GP de la UNSAM.",
       "q": null
     },
     {
       "id": "c7",
-      "sec": "marco",
-      "p": "s",
-      "title": "Eje de digitalización sin correlato en los objetivos",
-      "sum": "El Eje 3 del marco teórico (digitalización) no tiene ningún objetivo específico que lo opere empíricamente. El período fue elegido por incluir la consolidación de procedimientos electrónicos, pero eso no se mide.",
-      "sug": "Articular el eje con algún objetivo —por ejemplo, distinguir si la evolución coincide con hitos de digitalización del BAC— o reformularlo como puramente contextual.",
-      "q": "¿Planeás identificar algún momento de inflexión vinculado a la digitalización del sistema?"
-    },
-    {
-      "id": "c8",
       "sec": "bibliografia",
       "p": "s",
-      "title": "Inconsistencia en el año de Rozenwurcel & Drewes",
-      "sum": "La misma obra aparece citada como (2014) en el TP1 y como (2012) en el TP2.",
-      "sug": "Verificar el año exacto en el repositorio del Centro iDeAS (UNSAM) y unificar la cita.",
+      "title": "Paredes Romero (2018): referencia bibliográfica incompleta",
+      "sum": "La entrada no indica la publicación donde fue editado el trabajo. Según verificación, fue publicado en la revista Población y Desarrollo (Universidad Nacional de Asunción, Paraguay). Sin esa información la fuente es difícil de localizar y verificar.",
+      "sug": "Completar la referencia con el nombre de la revista, número o volumen y DOI si está disponible. Ejemplo: Población y Desarrollo, 24(46).",
       "q": null
     }
   ],
   "grading": {
-    "cat": "APROBADO CON OBSERVACIONES",
-    "score": "7",
-    "note": "Trabajo viable con mejora sustancial respecto del TP1: diseño factible, datos accesibles, marco teórico expandido. Dos problemas críticos subsanables sin reformular el diseño: precisar la identificación de PyMEs en el BAC y agregar una proposición analítica que articule teoría y objetivos empíricos."
+    "cat": "APROBADO CON OBSERVACIONES MENORES",
+    "score": "8",
+    "note": "El trabajo muestra madurez metodológica genuina y ha receptado los señalamientos críticos de instancias anteriores. Los dos problemas que persisten —ausencia de proposición analítica y formulación preparatoria del OE1— son solucionables sin rediseñar el proyecto. Los señalamientos bibliográficos son errores formales subsanables."
   }
-    }
+}
