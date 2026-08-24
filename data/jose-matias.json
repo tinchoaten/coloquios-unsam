@@ -1,90 +1,112 @@
 {
   "name": "Abg. Matías Luciano José",
-  "title": "La naturaleza jurídica de los certificados de obra pública en la normativa entrerriana: análisis doctrinario y jurisprudencial (2015-2025)",
+  "title": "La naturaleza jurídica de los certificados de obra pública en la normativa entrerriana: análisis doctrinario y jurisprudencial (2018-2025)",
   "modality": "Análisis jurídico · Revisión sistemática de antecedentes doctrinarios y/o jurisprudenciales",
   "sections": [
     { "id": "titulo", "label": "Título" },
     { "id": "problematica", "label": "Problemática" },
     { "id": "justificacion", "label": "Justificación" },
-    { "id": "marco", "label": "Marco teórico" },
     { "id": "objetivos", "label": "Objetivos" },
+    { "id": "marco", "label": "Marco teórico" },
+    { "id": "metodologia", "label": "Metodología" },
+    { "id": "cronograma", "label": "Cronograma" },
     { "id": "bibliografia", "label": "Bibliografía" }
   ],
   "comments": [
     {
-      "id": "c9", "sec": "titulo", "p": "s",
-      "title": "Título no refleja la reforma legislativa",
-      "sum": "El subtítulo (\"análisis doctrinario y jurisprudencial\") omite que la Ley 11.151 es el hilo conductor del problema.",
-      "sug": "Ajustar el subtítulo para que la reforma quede visible, por ejemplo: \"…doctrina, jurisprudencia y el impacto de la Ley 11.151 (2015-2025)\".",
+      "id": "c1",
+      "sec": "problematica",
+      "p": "c",
+      "title": "Se perdió el mejor argumento empírico",
+      "sum": "En el TP1, el fallo \"Piacenza\" (STJER, 2024) mostraba que los tres vocales llegaron al mismo resultado con fundamentos jurídicos irreconciliables. En el TP2 esa evidencia desapareció, y quedó reducida a una frase genérica.",
+      "sug": "Restituir, aunque sea sintéticamente, el desacuerdo interno entre los vocales: es la pieza que mejor demuestra que el tema amerita una revisión sistemática y no una mera reseña.",
+      "q": "¿Por qué se sacó del planteamiento del problema el desacuerdo entre los vocales de \"Piacenza\"?"
+    },
+    {
+      "id": "c2",
+      "sec": "problematica",
+      "p": "s",
+      "title": "Incidencia de la pandemia no abordada",
+      "sum": "La justificación del recorte 2018-2025 mejoró mucho respecto del TP1, pero no aborda si la pandemia (2020-2021) afectó el volumen o el ritmo de la actividad judicial relevada en ese tramo.",
+      "sug": "Anticipar esa posible pregunta antes de que la haga el comité.",
+      "q": "¿La pandemia tuvo algún efecto sobre la cantidad o el ritmo de fallos dictados en ese período?"
+    },
+    {
+      "id": "c3",
+      "sec": "justificacion",
+      "p": "s",
+      "title": "Vínculo débil con la agenda de compras públicas",
+      "sum": "El trabajo está anclado en derecho administrativo general; no explicita cómo la calificación jurídica del certificado afecta la participación de PyMEs, el riesgo financiero de los contratistas o la competitividad del mercado de obra pública.",
+      "sug": "Sumar en la justificación un párrafo que conecte el problema jurídico-doctrinario con estos efectos sobre el sistema de compras.",
+      "q": "¿Cómo cree que la reforma de la Ley 11.151 afecta la participación de contratistas más chicos en licitaciones de obra pública?"
+    },
+    {
+      "id": "c4",
+      "sec": "objetivos",
+      "p": "s",
+      "title": "Verbo del OE2 aún descriptivo",
+      "sum": "El objetivo específico sobre jurisprudencia usa \"determinar\", un verbo todavía cercano a una tarea de relevamiento antes que a un objetivo analítico.",
+      "sug": "Reemplazar por un verbo más analítico, como \"clasificar\" o \"tipificar\", que anticipe el propósito de ordenar las posturas jurisprudenciales en categorías.",
+      "q": "¿Por qué \"determinar\" y no un verbo que refleje la clasificación que construye después en el marco teórico?"
+    },
+    {
+      "id": "c5",
+      "sec": "objetivos",
+      "p": "s",
+      "title": "Alcance ambiguo de \"consecuencias jurídicas\"",
+      "sum": "El OE3 habla de examinar las \"consecuencias jurídicas\" de la reforma, expresión que puede leerse como cambio en la calificación dogmática o como efecto práctico (tiempos de cobro, litigiosidad).",
+      "sug": "Precisar que se refiere al cambio en la vía procesal y la calificación dogmática, no a un análisis de impacto empírico, que excedería la metodología declarada.",
+      "q": "Cuando dice \"consecuencias jurídicas\", ¿se refiere a la calificación dogmática del instituto o a efectos prácticos medibles?"
+    },
+    {
+      "id": "c6",
+      "sec": "marco",
+      "p": "s",
+      "title": "Taxonomía propia sin aplicación explícita",
+      "sum": "La clasificación instrumentalista/administrativista/crediticia que construye (nota 4) es un aporte valioso, pero no está explícito cómo se usará para clasificar la jurisprudencia relevada.",
+      "sug": "Explicitar que esa taxonomía funcionará como marco analítico para el OE2 (clasificar posturas jurisprudenciales) y el OE3 (contrastarlas con la legislación).",
+      "q": "¿Cómo piensa usar su propia clasificación doctrinaria para analizar los fallos que va a relevar?"
+    },
+    {
+      "id": "c7",
+      "sec": "marco",
+      "p": "s",
+      "title": "Falta doctrina específicamente entrerriana",
+      "sum": "El OE1 promete relevar doctrina \"nacional y local\", pero el marco teórico se construye enteramente con administrativistas de alcance nacional (Barra, Gordillo, Cassagne, Comadira, Dromi) o de otras provincias (Botassi, Gómez Sanchís).",
+      "sug": "Buscar bibliografía producida específicamente por la doctrina entrerriana (UNER, Colegio de Abogados de Entre Ríos, Escuela de la Función Pública provincial).",
+      "q": "¿Relevó doctrina producida específicamente en Entre Ríos sobre este tema, o el \"local\" del objetivo se refiere a la jurisprudencia?"
+    },
+    {
+      "id": "c8",
+      "sec": "metodologia",
+      "p": "s",
+      "title": "Corpus jurisprudencial reducido",
+      "sum": "Solo tres precedentes relevados en siete años (2018-2025) para sostener una revisión sistemática de jurisprudencia.",
+      "sug": "Confirmar si es el universo completo de antecedentes relevantes tras una búsqueda exhaustiva en el sistema del STJER y las Cámaras, o si se ampliará durante la elaboración del trabajo final.",
+      "q": "¿Agotó la búsqueda de precedentes en el sistema de jurisprudencia del STJER, o estos tres son una selección preliminar?"
+    },
+    {
+      "id": "c9",
+      "sec": "metodologia",
+      "p": "c",
+      "title": "Fallos citados no verificables por terceros",
+      "sum": "Los tres fallos citados están linkeados con URLs del buscador interno del Poder Judicial de Entre Ríos que parecen tokens de sesión temporales; no fue posible acceder a ninguno por esa vía.",
+      "sug": "Conseguir la cita formal estable de cada fallo (tomo/folio, número de sentencia) o una copia certificada, en vez de depender del enlace de sesión del buscador.",
       "q": null
     },
     {
-      "id": "c3", "sec": "problematica", "p": "s",
-      "title": "Prórroga de emergencia en 2026 no mencionada",
-      "sum": "La Ley 11.138 fue restablecida hasta el 31/12/2026 (aprobado en enero de 2026). El trabajo la da por vencida en 2025.",
-      "sug": "Incorporar la prórroga en la problemática o en la justificación, o reconocerla explícitamente como limitación del recorte temporal adoptado.",
-      "q": "¿Tuvo en cuenta la prórroga aprobada en enero de 2026 al definir el recorte temporal 2015-2025?"
-    },
-    {
-      "id": "c6", "sec": "justificacion", "p": "s",
-      "title": "Relevamiento preliminar sin precisar",
-      "sum": "La originalidad descansa en la ausencia de antecedentes, pero no se especificaron repositorios ni revistas consultadas.",
-      "sug": "Precisar qué repositorios y revistas se consultaron (UNSAM, Austral, UBA, UNER; RAP, Revista de Derecho Administrativo) para fundamentar la afirmación de originalidad.",
-      "q": "¿En qué repositorios o revistas especializadas realizó el relevamiento preliminar?"
-    },
-    {
-      "id": "c2", "sec": "marco", "p": "c",
-      "title": "García de Enterría: grafía errónea y cita indirecta",
-      "sum": "Nombre mal escrito (\"Entrerría\"). La cita es indirecta vía Jara (2009) pero se presenta como directa; el autor no figura en la bibliografía.",
-      "sug": "Corregir la grafía en todo el trabajo. Reescribir como cita indirecta: \"(García de Enterría y Fernández, 2007, citado en Jara, 2009, p. 176)\". Incluir solo a Jara/Linares Jara en las referencias.",
-      "q": "¿Se accedió directamente al texto de García de Enterría y Fernández (2007)?"
-    },
-    {
-      "id": "c7", "sec": "marco", "p": "s",
-      "title": "Rol periférico de Linares Jara (2009)",
-      "sum": "Su único aporte es transportar la cita a García de Enterría. El título (\"adicionales de obra pública\") es tangencial al objeto.",
-      "sug": "Evaluar si conviene acceder directamente a García de Enterría y Fernández (2007) y citarlo de forma directa, o bien reconsiderar el rol de esta fuente en el marco teórico.",
-      "q": null
-    },
-    {
-      "id": "c8", "sec": "marco", "p": "s",
-      "title": "Ausencia de doctrina procesalista complementaria",
-      "sum": "No hay referencias sobre ejecución forzada de créditos contra el Estado en derecho procesal provincial, núcleo del conflicto que abre la Ley 11.151.",
-      "sug": "Incorporar bibliografía sobre las vías de cobro de créditos contra el Estado en el fuero contencioso administrativo provincial, para contextualizar el cambio procesal.",
-      "q": "¿Contempla incorporar doctrina sobre las vías de cobro en el fuero contencioso administrativo provincial?"
-    },
-    {
-      "id": "c10", "sec": "marco", "p": "s",
-      "title": "Ambigüedad en \"Martínez (1997)\"",
-      "sum": "Podría ser Martínez Lozano (artículo español) u otro autor. Pinto Rodríguez lo usa para la categoría \"Títulos de Legitimación\".",
-      "sug": "Verificar cuál Martínez (1997) cita Pinto Rodríguez y escribir el apellido completo (p. ej. \"Martínez Lozano\") en todas las menciones.",
-      "q": "¿La referencia a Martínez (1997) en Pinto Rodríguez es Martínez Lozano u otro autor?"
-    },
-    {
-      "id": "c1", "sec": "objetivos", "p": "c",
-      "title": "OE2 introduce derecho comparado incompatible",
-      "sum": "Comparar con las 23 jurisdicciones restantes no es coherente con la submodalidad declarada y hace inviable el trabajo por extensión.",
-      "sug": "Eliminar el OE2 o reemplazarlo por una comparación acotada (una o dos jurisdicciones) sobre el punto en disputa. Si se mantiene la comparación amplia, declarar la sub-modalidad \"derecho comparado\" con sus requisitos propios.",
-      "q": "¿Cómo piensa abordar esa comparación sin comprometer la submodalidad declarada ni exceder los límites de extensión?"
-    },
-    {
-      "id": "c5", "sec": "objetivos", "p": "s",
-      "title": "OE1: \"pormenorizadamente\" puede absorber extensión desproporcionada",
-      "sum": "La caracterización general del contrato puede desplazar el espacio de los OE centrales (3-5) si no se acota su alcance.",
-      "sug": "Calibrar el OE1 para que funcione como capítulo introductorio acotado, sin superar el 10-15% de la extensión total del trabajo.",
-      "q": "¿Cuánta extensión estima dedicar a la caracterización del contrato de obra pública en general?"
-    },
-    {
-      "id": "c4", "sec": "bibliografia", "p": "s",
-      "title": "Referencia inconsistente: Beltrán Gorostegui",
-      "sum": "En el texto: \"Beltrán Gorostegui\". En la lista de referencias: \"Gorostegui, B.\" — falta el primer apellido compuesto.",
-      "sug": "Corregir en las referencias a \"Beltrán Gorostegui, B. (2009)…\" y verificar que todas las menciones en el texto usen el apellido compuesto completo.",
+      "id": "c10",
+      "sec": "cronograma",
+      "p": "s",
+      "title": "Cronograma sin calendarizar",
+      "sum": "La tabla de cronograma no indica bimestre para ninguna de las siete tareas listadas.",
+      "sug": "Completar la calendarización antes de la próxima entrega, para poder evaluar la factibilidad temporal del plan.",
       "q": null
     }
   ],
   "grading": {
-    "cat": "APROBADO CON OBSERVACIONES MENORES",
-    "score": "8",
-    "note": "Concepción robusta, dominio del campo, problemática jurídica real y relevante. El problema del OE2 es un ajuste puntual de diseño que no compromete la estructura global."
+    "cat": "APROBADO CON OBSERVACIONES",
+    "score": "7",
+    "note": "El proyecto resuelve casi todas las observaciones del TP1 y mantiene un encuadre metodológico sólido, pero la revisión independiente detectó dos problemas que exigen trabajo real antes del trabajo final: la pérdida del argumento empírico más fuerte del planteamiento (el disenso interno en \"Piacenza\") y la falta de verificabilidad de las fuentes jurisprudenciales citadas. Ninguno de los dos compromete la viabilidad del proyecto."
   }
 }
