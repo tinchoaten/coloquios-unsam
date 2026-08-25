@@ -1,0 +1,129 @@
+{
+  "name": "Abog. Rufino Darío Sebastián",
+  "title": "Transparencia, rendición de cuentas y compras públicas en Entre Ríos (República Argentina): un estudio de caso sobre el rol de los organismos constitucionales de control en el período 2008-2015",
+  "modality": "Estudio de caso · Caso único · Diacrónico · Inferencia descriptiva",
+  "sections": [
+    { "id": "titulo", "label": "Título" },
+    { "id": "modalidad", "label": "Modalidad" },
+    { "id": "problematica", "label": "Problemática" },
+    { "id": "justificacion", "label": "Justificación" },
+    { "id": "objetivos", "label": "Objetivos" },
+    { "id": "marco", "label": "Marco teórico" },
+    { "id": "bibliografia", "label": "Bibliografía" }
+  ],
+  "comments": [
+    {
+      "id": "c1",
+      "sec": "problematica",
+      "p": "c",
+      "title": "Factibilidad del acceso a expedientes judiciales",
+      "sum": "El proyecto descansa centralmente en expedientes judiciales, varios aún en trámite, sin aclarar si son de acceso público ni cómo se accederá a la documentación administrativa de los procedimientos de contratación involucrados.",
+      "sug": "Explicitá qué fuentes son públicamente accesibles, cuáles requerirán gestión directa ante los tribunales, y qué estrategia adoptarás para los expedientes sin sentencia firme.",
+      "q": "¿Pudiste acceder ya a alguno de los expedientes que mencionás? ¿Cómo pensás gestionar los que aún están en curso?"
+    },
+    {
+      "id": "c2",
+      "sec": "objetivos",
+      "p": "c",
+      "title": "Ausencia de hipótesis de trabajo",
+      "sum": "El Instructivo exige que los estudios de caso formulen una hipótesis que relacione variables y guíe el análisis empírico. Hay una buena pregunta de investigación, pero ninguna proposición analítica que oriente los hallazgos.",
+      "sug": "Formulá al menos una hipótesis. Por ejemplo: que el diseño normativo presenta déficits estructurales que limitan la eficacia preventiva, o que factores de captura condicionaron el desempeño en el período.",
+      "q": "¿Qué proposición teórica esperás poder demostrar o descartar con los datos que vas a recolectar?"
+    },
+    {
+      "id": "c3",
+      "sec": "problematica",
+      "p": "c",
+      "title": "Riesgo de derivar al análisis penal",
+      "sum": "El planteo sitúa las causas judiciales casi como objeto central, con riesgo de que el trabajo analice los hechos de corrupción y su tratamiento penal en vez del desempeño del sistema de control de compras.",
+      "sug": "Explicitá que las causas operan como evidencia del funcionamiento de los órganos de control, no como objeto de análisis en sí mismas. Aclaralo en el planteo del problema y en la metodología.",
+      "q": "¿Cómo vas a evitar que el análisis de los expedientes desvíe el foco hacia lo penal y no hacia el control de las compras?"
+    },
+    {
+      "id": "c4",
+      "sec": "modalidad",
+      "p": "c",
+      "title": "Error terminológico: 'interferencia' en vez de 'inferencia'",
+      "sum": "El trabajo declara la sub-modalidad como 'interferencia descriptiva', cuando el término correcto del Instructivo es 'inferencia descriptiva'. Es un concepto metodológico central del proyecto.",
+      "sug": "Corregir en todas las apariciones del documento.",
+      "q": null
+    },
+    {
+      "id": "c5",
+      "sec": "problematica",
+      "p": "c",
+      "title": "¿La publicidad oficial queda bajo la Ley 5140?",
+      "sum": "No tengo expertise específico en el régimen de compras de Entre Ríos, pero surge la duda de si los contratos de publicidad oficial se tramitan bajo la Ley 5140 y quedan sujetos a los mismos órganos de control que el trabajo analiza.",
+      "sug": "Si la Ley 5140 cubre estos contratos, aclaralo brevemente. Si tienen un régimen propio, justificá su inclusión dentro del objeto de estudio de la Maestría.",
+      "q": "¿Los contratos de publicidad oficial en Entre Ríos se tramitan bajo la Ley 5140 y son auditados por los mismos órganos que analizás?"
+    },
+    {
+      "id": "c6",
+      "sec": "justificacion",
+      "p": "s",
+      "title": "Estado del arte: indicar dónde se buscó",
+      "sum": "Se afirma que no existen antecedentes académicos sobre el tema, pero no se indica en qué bases o repositorios se realizó esa búsqueda, ni se dialoga con literatura sobre control en compras públicas subnacionales.",
+      "sug": "Indicá dónde buscaste (RIUMA, REDALYC, CIPPEC, repositorios UNSAM, etc.) y revisá literatura sobre accountability horizontal y control en compras a nivel provincial.",
+      "q": "¿En qué bases realizaste la búsqueda cuando concluiste que no hay antecedentes académicos sobre el tema?"
+    },
+    {
+      "id": "c7",
+      "sec": "objetivos",
+      "p": "s",
+      "title": "Superposición entre OG y objetivos específicos",
+      "sum": "El primer y tercer objetivo específico se superponen con el objetivo general, resultando en dimensiones analíticas poco diferenciadas.",
+      "sug": "Redefiní los OE en tres dimensiones distintas: (1) diseño normativo, (2) patrones de intervención efectiva, (3) factores que explican las tensiones.",
+      "q": null
+    },
+    {
+      "id": "c8",
+      "sec": "marco",
+      "p": "s",
+      "title": "Falta bibliografía específica de compras públicas",
+      "sum": "El marco teórico es sólido en sus conceptos generales, pero carece de literatura específica sobre control en contrataciones: principios de la contratación, control interno/externo, accountability en compras.",
+      "sug": "Incorporá literatura de Arrowsmith, estudios del BID y OCDE sobre control en compras, o los indicadores del Pilar IV de la metodología MAPS.",
+      "q": null
+    },
+    {
+      "id": "c9",
+      "sec": "titulo",
+      "p": "s",
+      "title": "Justificación débil del recorte temporal",
+      "sum": "El inicio en 2008 se vincula a la reforma constitucional pero no se precisa su fecha exacta. El cierre en 2015 tampoco está justificado con un evento institucional concreto.",
+      "sug": "Precisá la fecha de entrada en vigencia de la reforma y justificá el cierre en 2015 con un hito claro (fin de gestión, cambio normativo, etc.).",
+      "q": "¿Hay algún evento institucional concreto que marque el inicio y el cierre del período elegido?"
+    },
+    {
+      "id": "c10",
+      "sec": "bibliografia",
+      "p": "s",
+      "title": "Klitgaard: año de publicación a verificar",
+      "sum": "La referencia consigna Klitgaard (2010), pero según la base del BID la fecha de emisión del documento es abril de 2009.",
+      "sug": "Verificar el año en la fuente del BID (DOI: 10.18235/0009385) y corregir la cita.",
+      "q": null
+    },
+    {
+      "id": "c11",
+      "sec": "bibliografia",
+      "p": "s",
+      "title": "O'Donnell: grafía incorrecta del apellido",
+      "sum": "El apellido aparece como 'O Donell' en todas sus ocurrencias; la grafía correcta es O'Donnell (con doble n).",
+      "sug": "Corregir en el cuerpo del texto y en la referencia bibliográfica.",
+      "q": null
+    },
+    {
+      "id": "c12",
+      "sec": "bibliografia",
+      "p": "s",
+      "title": "Infobae: fecha posterior a la entrega",
+      "sum": "La cita de Infobae consigna fecha 30/07/2025, posterior a la fecha de entrega del TP2. Puede ser error de registro o actualización de la nota.",
+      "sug": "Verificar y corregir la fecha exacta de publicación.",
+      "q": null
+    }
+  ],
+  "grading": {
+    "cat": "APROBADO CON OBSERVACIONES MENORES",
+    "score": "7",
+    "note": "Proyecto con base temática y conceptual sólida, encuadre metodológico correcto y buen dominio del contexto normativo local. Dos problemas de diseño deben resolverse: ausencia de hipótesis explícita y falta de fundamentación del acceso a las fuentes judiciales centrales. Ambos son subsanables sin reformulación estructural."
+  }
+    }
